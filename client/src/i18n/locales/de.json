@@ -1,0 +1,108 @@
+{
+  "header": {
+    "title": "KI Prompt Orchestrator",
+    "description": "Generiere anbieterspezifische Prompts für Code-Analyse",
+    "status_ready": "Bereit"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "modules": "Module",
+    "help": "Hilfe",
+    "settings": "Einstellungen"
+  },
+  "sections": {
+    "preview": "Vorschau",
+    "generate": "Generieren",
+    "upload": "Quelldateien hochladen",
+    "test": "Anbieter-Test (RobustKit)",
+    "github_integration": "GitHub Integration"
+  },
+  "forms": {
+    "task_title": "Aufgabentitel",
+    "task_title_placeholder": "Aufgabentitel eingeben...",
+    "feature_description": "Feature-Beschreibung",
+    "feature_description_placeholder": "Beschreibe das zu implementierende Feature...",
+    "acceptance_criteria": "Akzeptanzkriterien",
+    "acceptance_criteria_placeholder": "Klare, messbare Ergebnisse definieren...",
+    "use_case_id": "Use Case ID",
+    "use_case_id_placeholder": "uc_demo_edu_tutor",
+    "test_prompt": "Test Prompt",
+    "test_prompt_placeholder": "Prompt für Anbieter-Test eingeben...",
+    "direct_prompt": "Direkter Prompt",
+    "direct_prompt_placeholder": "Geben Sie Ihren Prompt direkt ein...",
+    "provider": "Anbieter",
+    "model": "Modell",
+    "mode": "Modus",
+    "temperature": "Temperatur"
+  },
+  "buttons": {
+    "generate_preview": "Vorschau generieren",
+    "generating_preview": "Generiere Vorschau...",
+    "generate_prompts": "Prompts generieren",
+    "generating": "Generiere...",
+    "download": "Herunterladen",
+    "run_test": "Test ausführen",
+    "running_test": "Führe Test aus...",
+    "automatic": "Automatisch",
+    "manual": "Manuell",
+    "structured_mode": "Strukturierte Eingabe",
+    "direct_prompt": "Direkter Prompt"
+  },
+  "labels": {
+    "preview_provider": "Vorschau-Anbieter",
+    "preview_mode": "Vorschau-Modus",
+    "generate_providers": "Generier-Anbieter",
+    "generate_modes": "Generier-Modi",
+    "processing_mode": "Verarbeitungsmodus",
+    "max_lines_per_chunk": "Max. Zeilen pro Chunk",
+    "preview_result": "Vorschau-Ergebnis",
+    "test_result": "Test-Ergebnis",
+    "job_started": "Job gestartet",
+    "prompt_mode": "Prompt-Eingabemodus"
+  },
+  "messages": {
+    "upload_failed": "Upload fehlgeschlagen",
+    "upload_failed_desc": "Bitte nur JavaScript-, Markdown- oder Textdateien hochladen",
+    "too_many_files": "Zu viele Dateien",
+    "too_many_files_desc": "Maximal {{max}} Dateien erlaubt.",
+    "file_too_large": "Datei zu groß",
+    "file_too_large_desc": "Datei {{filename}} ist größer als 10 MB.",
+    "files_uploaded": "Dateien hochgeladen",
+    "files_uploaded_desc": "{{count}} Datei(en) erfolgreich hinzugefügt",
+    "upload_error": "Upload-Fehler",
+    "upload_error_desc": "Fehler beim Lesen der Datei: {{filename}}",
+    "preview_failed": "Vorschau fehlgeschlagen",
+    "preview_failed_desc": "Unbekannter Fehler aufgetreten",
+    "generation_failed": "Generierung fehlgeschlagen",
+    "generation_failed_desc": "Unbekannter Fehler aufgetreten",
+    "prompts_generated": "Prompts generiert!",
+    "prompts_generated_desc": "Generierung erfolgreich gestartet",
+    "robustkit_error": "RobustKit Fehler",
+    "robustkit_error_desc": "Test fehlgeschlagen",
+    "download_started": "Download gestartet",
+    "download_started_desc": "Ihre Prompts werden heruntergeladen",
+    "download_failed": "Download fehlgeschlagen",
+    "download_failed_desc": "Fehler beim Herunterladen der generierten Prompts",
+    "zip_extracted": "ZIP-Datei extrahiert",
+    "zip_extracted_desc": "{{filename}} erfolgreich extrahiert - {{count}} Dateien verarbeitet",
+    "zip_extraction_failed": "ZIP-Extraktion fehlgeschlagen",
+    "zip_extraction_failed_desc": "Fehler beim Extrahieren von {{filename}}"
+  },
+  "settings": {
+    "language": "Sprache",
+    "choose_language": "Wählen Sie Ihre bevorzugte Sprache",
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "modes": {
+    "implement": "implementieren",
+    "analyze": "analysieren",
+    "review": "prüfen",
+    "test": "testen"
+  },
+  "dropzone": {
+    "drag_drop": "Dateien hier hinziehen oder klicken zum Auswählen",
+    "file_types": "JavaScript-, Markdown-, Textdateien oder ZIP-Archive",
+    "max_size": "Max. 10MB pro Datei"
+  }
+}

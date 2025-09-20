@@ -1,0 +1,108 @@
+{
+  "header": {
+    "title": "AI Prompt Orchestrator",
+    "description": "Generate provider-specific prompts for code analysis",
+    "status_ready": "Ready"
+  },
+  "navigation": {
+    "home": "Home",
+    "modules": "Modules",
+    "help": "Help",
+    "settings": "Settings"
+  },
+  "sections": {
+    "preview": "Preview",
+    "generate": "Generate",
+    "upload": "Upload Source Files",
+    "test": "Provider Test (RobustKit)",
+    "github_integration": "GitHub Integration"
+  },
+  "forms": {
+    "task_title": "Task Title",
+    "task_title_placeholder": "Enter task title...",
+    "feature_description": "Feature Description",
+    "feature_description_placeholder": "Describe the feature to implement...",
+    "acceptance_criteria": "Acceptance Criteria",
+    "acceptance_criteria_placeholder": "State clear, measurable outcomes...",
+    "use_case_id": "Use Case ID",
+    "use_case_id_placeholder": "uc_demo_edu_tutor",
+    "test_prompt": "Test Prompt",
+    "test_prompt_placeholder": "Enter prompt for provider testing...",
+    "direct_prompt": "Direct Prompt",
+    "direct_prompt_placeholder": "Enter your prompt directly...",
+    "provider": "Provider",
+    "model": "Model",
+    "mode": "Mode",
+    "temperature": "Temperature"
+  },
+  "buttons": {
+    "generate_preview": "Generate Preview",
+    "generating_preview": "Generating Preview...",
+    "generate_prompts": "Generate Prompts",
+    "generating": "Generating...",
+    "download": "Download",
+    "run_test": "Run Test",
+    "running_test": "Running Test...",
+    "automatic": "Automatic",
+    "manual": "Manual",
+    "structured_mode": "Structured Input",
+    "direct_prompt": "Direct Prompt"
+  },
+  "labels": {
+    "preview_provider": "Preview Provider",
+    "preview_mode": "Preview Mode",
+    "generate_providers": "Generate Providers",
+    "generate_modes": "Generate Modes",
+    "processing_mode": "Processing Mode",
+    "max_lines_per_chunk": "Max Lines per Chunk",
+    "preview_result": "Preview Result",
+    "test_result": "Test Result",
+    "job_started": "Job started",
+    "prompt_mode": "Prompt Input Mode"
+  },
+  "messages": {
+    "upload_failed": "Upload failed",
+    "upload_failed_desc": "Please upload JavaScript, Markdown, or text files only",
+    "too_many_files": "Too many files",
+    "too_many_files_desc": "Maximum {{max}} files allowed.",
+    "file_too_large": "File too large",
+    "file_too_large_desc": "File {{filename}} is larger than 10 MB.",
+    "files_uploaded": "Files uploaded",
+    "files_uploaded_desc": "{{count}} file(s) added successfully",
+    "upload_error": "Upload error",
+    "upload_error_desc": "Failed to read file: {{filename}}",
+    "preview_failed": "Preview failed",
+    "preview_failed_desc": "Unknown error occurred",
+    "generation_failed": "Generation failed",
+    "generation_failed_desc": "Unknown error occurred",
+    "prompts_generated": "Prompts generated!",
+    "prompts_generated_desc": "Generation started successfully",
+    "robustkit_error": "RobustKit Error",
+    "robustkit_error_desc": "Test failed",
+    "download_started": "Download started",
+    "download_started_desc": "Your prompts are being downloaded",
+    "download_failed": "Download failed",
+    "download_failed_desc": "Failed to download generated prompts",
+    "zip_extracted": "ZIP file extracted",
+    "zip_extracted_desc": "{{filename}} extracted successfully - {{count}} files processed",
+    "zip_extraction_failed": "ZIP extraction failed",
+    "zip_extraction_failed_desc": "Failed to extract {{filename}}"
+  },
+  "settings": {
+    "language": "Language",
+    "choose_language": "Choose your preferred language",
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "modes": {
+    "implement": "implement",
+    "analyze": "analyze", 
+    "review": "review",
+    "test": "test"
+  },
+  "dropzone": {
+    "drag_drop": "Drag & drop files here, or click to select",
+    "file_types": "JavaScript, Markdown, text files, or ZIP archives",
+    "max_size": "Max 10MB per file"
+  }
+}
